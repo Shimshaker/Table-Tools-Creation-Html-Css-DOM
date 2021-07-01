@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/site.css">
+    <title>Table Javascript - Horaire semaine</title>
+</head>
+
+<body>
+    <div class="center">
+        <form>
+            <label for="nomTable">Nom de votre table :</label>
+            <input type="text" id="nomTable">
+            <label for="nbrLignes">Nombre de ligne de votre table :</label>
+            <input type="number" id="nbrLignes">
+            <label for="nbrColonnes">Nombre de colonnes de votres table :</label>
+            <input type="number" id="nbrColonnes">
+            <button type="button" id="create_Table">Créer votre table</button>
+        </form>
+    </div>
+    <form class="incase">
+        <label for="choixM">Couleur de fond de la case</label>
+        <p>Clicque sur la Case et choisit les couleurs pour ton fond et ta police...</p>
+        <p>Entre le texte et Enter,pour valider...</p>
+        <label for="pickColor">Couleur de la case</label>
+        <input type="color" name="clr" id="pickColor">
+        <label for="pickColorPolice">Couleur de la police</label>
+        <input type="color" name="clr" id="pickColorPolice">
+        <label for="numInCase">Numéros de case</label>
+        <input type="text" id="numInCase" disabled>
+        <button type="button" id="changeCaseColor">Change la couleur</button>
+    </form>
+    <script type="text/javascript" src="/script.js"></script>
+    <footer>
+        <p>copyright @Shimshaker</p>
+    </footer>
+</body>
+
+</html>
